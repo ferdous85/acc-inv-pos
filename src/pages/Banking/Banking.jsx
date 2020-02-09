@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import {Container, Tabs, Tab} from 'react-bootstrap'
 import ListIcon from '@material-ui/icons/List';
 
-
-
 import BankList from './BankList';
 import AddNewBank from './AddNewBank';
 import DebitCredit from './DebitCredit';
@@ -28,7 +26,7 @@ export default class Banking extends Component {
                               <BankList />
                           </Tab>
                       {/* Add Bank For area Starts */}
-                          <Tab eventKey="addbank" title="Add Bank">
+                          <Tab eventKey="addbank" title="Add New Bank">
                               <AddNewBank />
                             
                       

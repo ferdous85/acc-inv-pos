@@ -20,7 +20,7 @@ export default class DebitCredit extends Component {
               e.preventDefault()
               
               this.setState({date:{}})
-              return //console.log(this.state)
+              return console.log(this.state)
             }
 
 
